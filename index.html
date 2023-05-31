@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <section class="container">
+        <header class="search-box">
+            <i class="location ai-location"></i>
+            <input type="text" class="search-input" placeholder="Search for a city...">
+            <button class="search-btn">
+                <i class="ai-search"></i>
+            </button>
+        </header>
+        <main class="main-info hidden">
+            <p class="city"></p>
+            <section class="temp-box">
+                <img width="72">
+                <p class="temp-c"></p><p class="c-symbol">°c</p>
+                <p class="temp-f hidden"></p><p class="f-symbol hidden">°f</p>
+            </section>
+            <p class="condition"></p>
+        </main>
+        <main class="error-info hidden">
+            <p class="error">404</p>
+            <p class="error-msg">City not found</p>
+        </main>
+        <footer class="extra-info hidden">
+            <div class="wind">
+                <i class="ai-air"></i>
+                <p class="wind-info"></p> <!-- wind speed & wind direction-->
+            </div>
+            <div class="humidity">
+                <i class="ai-water"></i>
+                <p class="humidity-percent"></p>
+            </div>
+        </footer>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
