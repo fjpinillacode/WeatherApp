@@ -33,7 +33,7 @@ searchButton.addEventListener('click', async () => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '3a9e3aaec5msh27580b210217490p1ca565jsnd9250067bc07',
+            'X-RapidAPI-Key': '***',
             'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
         }
     };
